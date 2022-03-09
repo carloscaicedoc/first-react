@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello React</title>
+    </head>
+    <body>
+        <div id="root">
+            <p>TEST: This is a text rendering without any React.</p>
+        </div>
+        
+        <script crossorigin="" src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin="" src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> 
+
+        <script>
+            const App = React.createElement("h1", {}, "Welcome to React. Code, Act & React!");
+            ReactDOM.render(App, document.getElementById("root"));
+        </script>
+    </body>
+</html>
